@@ -155,7 +155,7 @@ clients:
 
 <div class='full no-padding parallax home-video-wrapper'>
   <div class='fullscreen'>
-    <video autoplay='autoplay' id='fullscreen-video' loop='loop' poster="{{ page.landing_video_cover | relative_url }}">
+    <video autoplay muted id='fullscreen-video' loop='loop' poster="{{ page.landing_video_cover | relative_url }}">
       <source src='{{ page.landing_video_mp4 | relative_url }}' type='video/mp4'>
       <source src='{{ page.landing_video_webm | relative_url }}' type='video/webm'>
     </video>

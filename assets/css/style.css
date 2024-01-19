@@ -4944,7 +4944,7 @@ body {
       transition-duration: 0.2s;
   }
   .f-topbar-fixed.shrink .menu-title  {
-      font-size: 14px !important;
+      font-size: 12px !important;
       line-height: 60px;
   }
 }
@@ -4956,7 +4956,7 @@ body {
       color: #EDB713;
       margin-bottom: 30px;
       letter-spacing: 4px;
-      font-size: 14px !important;
+      font-size: 12px !important;
       font-weight: bold;
       font-family: poppins;
       line-height: 3.14286rem !important;
@@ -4970,7 +4970,7 @@ body {
       transition-duration: 0.2s;
   }
   .f-topbar-fixed.shrink .menu-title  {
-      font-size: 14px !important;
+      font-size: 12px !important;
       line-height: 60px;
   }
 }
