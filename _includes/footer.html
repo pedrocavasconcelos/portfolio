@@ -20,4 +20,10 @@
   {%- endif -%}
 
   <script src="{{ src }}" type="text/javascript"></script>
+  <script type="text/javascript">
+    var video = document.getElementById("fullscreen-video");
+    video.setAttribute("playsinline", "");
+    video.setAttribute("muted", "");
+    video.play();
+  </script>
 {% endfor %}
