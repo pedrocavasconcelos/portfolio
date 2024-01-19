@@ -1,7 +1,9 @@
 ---
 layout: default
 onepage: true
-landing_video: /assets/images/cover/cover-pedroca.mp4
+landing_video_mp4: /assets/images/cover/cover-pedroca.mp4
+landing_video_webm: /assets/images/cover/cover-pedroca.webm
+landing_video_cover: /assets/images/cover/cover-pedroca.jpg
 services:
   - title: Roteirista
     icon: fa fa-pencil
@@ -57,10 +59,12 @@ clipes:
   - path: _works/clipes/folsoms-the-night.md
   - path: _works/clipes/nova-gustavo-figueiredo.md
   - path: _works/clipes/ledjembergs-mil-rosas.md
-  - path: _works/clipes/sliced-hearts-walk-the-path.md
-  - path: _works/clipes/veronica-magalhaes-tropecos.md
   - path: _works/clipes/veronica-magalhaes-alem-de-mim.md
     style: wide
+  - path: _works/clipes/sliced-hearts-walk-the-path.md
+  - path: _works/clipes/meliandro-a-enchente.md
+  - path: _works/clipes/meliandro-caboclo-dagua.md
+  - path: _works/clipes/veronica-magalhaes-tropecos.md
 
 institucional:
   - path: _works/institucional/aglomerado-da-serra.md
@@ -151,8 +155,9 @@ clients:
 
 <div class='full no-padding parallax home-video-wrapper'>
   <div class='fullscreen'>
-    <video autoplay='autoplay' id='fullscreen-video' loop='loop'>
-      <source src='{{ page.landing_video | relative_url }}' type='video/mp4'>
+    <video autoplay='autoplay' id='fullscreen-video' loop='loop' poster="{{ page.landing_video_cover | relative_url }}">
+      <source src='{{ page.landing_video_mp4 | relative_url }}' type='video/mp4'>
+      <source src='{{ page.landing_video_webm | relative_url }}' type='video/webm'>
     </video>
     <div class='overlay'></div>
 
@@ -198,7 +203,7 @@ clients:
     </div>
     <p class="light">
     Simplicidade é a força que impulsiona meu trabalho. Abraço a direção, edição, roteiro, cinematografia e assistência de câmera.  </p>
-    <p class="light">Sendo minha áreas técnicas, asseguro um toque pessoal em cada detalhe, resultando em narrativas impactantes e visualmente cativante.</p>
+    <p class="light">Sendo minha áreas técnicas, asseguro um toque pessoal em cada detalhe, resultando em narrativas impactantes e visualmente cativantes.</p>
     <div class="two spacing"></div>
     <a href="#servicos" class="button small">Conheça meus serviços</a>
     <div class="three spacing"></div>
@@ -537,7 +542,7 @@ clients:
   </div>
   <div class="four spacing"></div>
 </div> -->
-<div class='full parallax' style="background-image: url({{ "/assets/images/filmes/uma-noite-para-joao-lemos/JANELINHANELSON.png" | relative_url }})">
+<div class='full parallax' style="background-image: url({{ "/assets/images/filmes/cinear/confins/preview-1000x700.jpg" | relative_url }})">
   <div class='four spacing'></div>
 </div>
 <a id='contato'></a>
