@@ -4920,7 +4920,7 @@ body {
 }
 .f-topbar-fixed.shrink .menu-title  {
     font-size: 14px !important;
-    line-height: 60px !important;
+    line-height: 100px !important;
 }
 
 @media only screen and (max-width: 480px){
@@ -4933,8 +4933,8 @@ body {
       font-size: 28px !important;
       font-weight: bold;
       font-family: poppins;
-      line-height: 3.14286rem !important;
-      text-wrap: wrap;
+      line-height: 100px !important;
+      text-wrap: nowrap;
 
       -webkit-transition-property: all;
       -moz-transition-property: all;
@@ -4944,8 +4944,8 @@ body {
       transition-duration: 0.2s;
   }
   .f-topbar-fixed.shrink .menu-title  {
-      font-size: 12px !important;
-      line-height: 60px;
+      font-size: 14px !important;
+      line-height: 100px !important;
   }
 }
 
@@ -4956,11 +4956,11 @@ body {
       color: #EDB713;
       margin-bottom: 30px;
       letter-spacing: 4px;
-      font-size: 12px !important;
+      font-size: 14px !important;
       font-weight: bold;
       font-family: poppins;
-      line-height: 3.14286rem !important;
-      text-wrap: wrap;
+      line-height: 100px !important;
+      text-wrap: nowrap;
 
       -webkit-transition-property: all;
       -moz-transition-property: all;
@@ -4970,7 +4970,7 @@ body {
       transition-duration: 0.2s;
   }
   .f-topbar-fixed.shrink .menu-title  {
-      font-size: 12px !important;
-      line-height: 60px;
+      font-size: 14px !important;
+      line-height: 100px !important;
   }
 }
